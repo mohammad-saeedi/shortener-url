@@ -1,0 +1,19 @@
+.error {
+  position: absolute;
+  bottom: 0%;
+  left: 50%;
+  width: 30%;
+  height: 3rem;
+  background: rgb(226, 137, 137);
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.7s ease;
+  border: 2px solid rgb(189, 14, 14);
+}
+.error p {
+  color: rgb(189, 14, 14);
+  font-family: "iransans";
+  font-size: 20px;
+}
